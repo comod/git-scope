@@ -1,6 +1,6 @@
 # GIT SCOPE (Intellij Plugin)
 Provides a tool window and a status bar widget to select a target branch called **GIT SCOPE**
-![](docs/01_toolwindow.png)
+![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/01_toolwindow.png)
 # Story
 I guess every developer loves to check their changes before commit using the **Version Control**.
 But there is one big problem after committing code: All changes in the **Version Control** and also the Line Status completely disappear.
@@ -24,8 +24,8 @@ Adds a Custom *Scope* (inspections, search/replaces, ect) "Git Scope (Files)", w
 
 READ: https://www.jetbrains.com/help/phpstorm/scopes.html
 
-![](docs/02_rollback.png)
-![](docs/03_scope.png)
+![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/02_rollback.png)
+![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/03_scope.png)
 
 ## Useful Shortcuts
 | Shortcut | Description |
