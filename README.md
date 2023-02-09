@@ -1,6 +1,13 @@
 # GIT SCOPE (Intellij Plugin)
 Provides a tool window and a status bar widget to select a target branch called **GIT SCOPE**
 ![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/01_toolwindow.png)
+
+# ⚠️ Announcement
+This plugin will no longer be free in the future!
+Keeping this plugin alive can be very challenging and time-consuming.
+<br/>
+Thank you for your understanding!
+
 # Story
 I guess every developer loves to check their changes before commit using the **Version Control**.
 But there is one big problem after committing code: All changes in the **Version Control** and also the Line Status completely disappear.
