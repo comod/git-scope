@@ -1,24 +1,25 @@
 # GIT SCOPE (Intellij Plugin)
-Create custom scope based on an any target branch you can choose from within a tool window which is then called **GIT SCOPE**.
-This scope is then used in a tool window, line status gutter, status bar widget, and finally as a scope.
+Create a custom scope based on any target branch that you can select in a tool window, which is then called **GIT SCOPE**.
+This scope is then used in a tool window, as line status in the line gutter, displayed in the status bar widget
+and finally as a custom scope.
 ![](docs/toolwindow.png)
 
 # Story
-I guess every developer loves to check their changes before commit using the **Version Control**.
-But there is one big problem after committing code: All changes in the **Version Control** and also the Line Status completely disappear.
-Usually one branch contains more than one commit. This plugin helps you to make these commits visible again in a intuitive way!
+I think every developer loves to check their changes with **version control** before committing.
+But there is a big problem after committing the code: All changes in **version control** and also the line status disappear completely.
+Usually a branch contains more than one commit. This plugin helps you to make these commits visible again in an intuitive way!
 
 # Modifications in Detail
 
 **Change Browser:**
 
-Adds a tool window with a "change browser" (similar to Version Control) which shows the current diff of your **GIT SCOPE**
+Adds a tool window with a "change browser" (similar to version control) that displays the current diff of the **GIT SCOPE**.
 
 ![](docs/head.png)
 
 **Line Status Gutter:**
 
-Adapts the Line Status according to your **GIT SCOPE**. Usually this built-in feature shows only the current "HEAD" changes
+Adjusts the line status according to your **GIT SCOPE**. Normally this built-in feature shows only the current "HEAD" changes
 
 READ: https://www.jetbrains.com/help/phpstorm/file-status-highlights.html
 
@@ -26,7 +27,7 @@ READ: https://www.jetbrains.com/help/phpstorm/file-status-highlights.html
 
 **Scope:**
 
-Adds a Custom *Scope* (inspections, search/replaces, ect) "Git Scope", which means search results will be filtered according to **GIT SCOPE**
+Adds a custom *Scope* (used to do inspections, search/replace, ect), i.e. search results are filtered by **GIT SCOPE**.
 
 READ: https://www.jetbrains.com/help/phpstorm/scopes.html
 
@@ -34,7 +35,7 @@ READ: https://www.jetbrains.com/help/phpstorm/scopes.html
 
 **Status Bar Widget**
 
-To be able to know your current git scope selection without opened tool window you can look at the status bar widget.
+To see the current selection of the Git Scope even when the tool window is not open, you can look at the status bar widget.
 
 ![](docs/statusbar.png)
 
