@@ -22,7 +22,9 @@ Adjusts the line status according to your **GIT SCOPE**. Normally this built-in 
 
 READ: https://www.jetbrains.com/help/phpstorm/file-status-highlights.html
 
-![](docs/linestatus.png)
+| HEAD               | "main"-Branch            |
+|--------------------|--------------------------|
+| ![](docs/head.png) | ![](docs/linestatus.png) |
 
 **Scope:**
 
