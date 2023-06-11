@@ -2,20 +2,19 @@
 Create a custom scope based on any target branch that you can select in a tool window, which is then called **GIT SCOPE**.
 This scope is then used in a tool window, as line status in the line gutter, displayed in the status bar widget
 and finally as a custom scope.
-![](docs/toolwindow.png)
 
-# Story
+## Story
 I think every developer loves to check their changes with **version control** before committing.
 But there is a big problem after committing the code: All changes in **version control** and also the line status disappear completely.
 Usually a branch contains more than one commit. This plugin helps you to make these commits visible again in an intuitive way!
 
-# Modifications in Detail
+## Modifications in Detail
 
 **Change Browser:**
 
 Adds a tool window with a "change browser" (similar to version control) that displays the current diff of the **GIT SCOPE**.
 
-![](docs/head.png)
+![](docs/toolwindow.png)
 
 **Line Status Gutter:**
 
