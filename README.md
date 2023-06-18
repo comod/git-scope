@@ -1,9 +1,11 @@
 # GIT SCOPE (Intellij Plugin)
 
-
- Create a custom scope based on any target branch that you can select in a tool window, which is then called **GIT SCOPE**.
-This scope is then used in a tool window, as line status in the line gutter, displayed in the status bar widget
-and finally as a custom scope.
+Create custom "scopes" for any target branch. Selectable in a tool window, which is then called **GIT SCOPE**.
+The Current "scope" is displayed as a
+- diff in the tool window
+- "line status" in the "line gutter"
+- custom "scope" and finally as a
+- status bar widget 
 
 ### Story
 I think every developer loves to check their changes with **version control** before committing.
