@@ -1,43 +1,57 @@
 # GIT SCOPE (Intellij Plugin)
-Provides a tool window and a status bar widget to select a target branch called **GIT SCOPE**
-![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/01_toolwindow.png)
 
-# ⚠️ Announcement
-This plugin will no longer be free in the future!
-Keeping this plugin alive can be very challenging and time-consuming.
-<br/>
-Thank you for your understanding!
+Create custom "scopes" for any target branch. Selectable in a tool window, which is then called **GIT SCOPE**.
+The Current "scope" is displayed as a
+- diff in the tool window
+- "line status" in the "line gutter"
+- custom "scope" and finally as a
+- status bar widget 
 
-# Story
-I guess every developer loves to check their changes before commit using the **Version Control**.
-But there is one big problem after committing code: All changes in the **Version Control** and also the Line Status completely disappear.
-Usually one branch contains more than one commit. This plugin helps you to make these commits visible again in a intuitive way!
+### Story
+I think every developer loves to check their changes with **version control** before committing.
+But there is a big problem after committing the code: All changes in **version control** and also the line status disappear completely.
+Usually a branch contains more than one commit. This plugin helps you to make these commits visible again in an intuitive way!
 
-# Modifications
+### Modifications in Detail
 
-**Change Browser:**
+![](docs/icon.svg) **Change Browser:**
 
-Adds a tool window with a change browser (similar to Version Control) which shows the current diff of your **GIT SCOPE**
+Adds a tool window with a "change browser" (similar to version control) that displays the current diff of the **GIT SCOPE**.
 
-**Line Status:**
+![](docs/toolwindow.png)
 
-Adapts the Line Status according to your **GIT SCOPE**. Usually this built-in feature shows only the current "HEAD" changes
+![](docs/icon.svg) **Line Status Gutter:**
+
+Adjusts the line status according to your **GIT SCOPE**. Normally this built-in feature shows only the current "HEAD" changes
 
 READ: https://www.jetbrains.com/help/phpstorm/file-status-highlights.html
 
-**Scope:**
+| HEAD               | "main"-Branch            |
+|--------------------|--------------------------|
+| ![](docs/head.png) | ![](docs/linestatus.png) |
 
-Adds a Custom *Scope* (inspections, search/replaces, ect) "Git Scope (Files)", which means search results will be filtered according to **GIT SCOPE**
+![](docs/icon.svg) **Scope:**
+
+Adds a custom *Scope* (used to do inspections, search/replace, ect), i.e. search results are filtered by **GIT SCOPE**.
 
 READ: https://www.jetbrains.com/help/phpstorm/scopes.html
 
-![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/02_rollback.png)
-![](https://raw.githubusercontent.com/comod/git-scope/docs/docs/03_scope.png)
+![](docs/scope.png)
 
-## Useful Shortcuts
-| Shortcut | Description |
-| --- | --- |
-| Alt+H | Toggle between HEAD and target branch |
-| Ctrl+D (on any file in the changes browser) | Open diff window  
-| F7 | step forward (in diff window)
-| Shift+F7 | step backward (in diff window)
+![](docs/icon.svg) **Status Bar Widget**
+
+To see the current selection of the Git Scope even when the tool window is not open, you can look at the status bar widget.
+
+![](docs/statusbar.png)
+
+## Shortcuts (Added by this Plugin)
+|Shortcut| Description|
+| --- |---|
+| Alt+H | Toggle between HEAD and last git scope selection|
+
+## More Useful Shortcuts
+| Shortcut                                  | Description|
+|-------------------------------------------|---|
+| Ctrl+D (on any file in a changes browser) | Open diff window|
+| F7                                        | step forward (in diff window)|
+| Shift+F7                                  | step backward (in diff window)|
